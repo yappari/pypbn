@@ -1,0 +1,130 @@
+% PBN 2.0
+% This PBN file gives examples of ActionTables.
+% The data are taken form the Dutch Bridge Magazine March 1999
+% The task is to determine the Contracts for E-W .
+
+% Contracts not in the tables have a score of 0.
+[Board "1"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "N"]
+[Vulnerable "-"]
+[Deal "N:- A7652.J765.8.QJ8 - 8.4.KQJT974.AK52"]
+[Auction "N"]
+1H Pass 2H 3D AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 5D  - 100
+2 4D  -  50
+
+[Board "2"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "E:AKJ95.AT8.75.KQT - QT63.93.KQJT42.2 -"]
+[Auction "E"]
+1S Pass 3S Pass
+4S AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 4S  - 100
+2 4D  -  40
+- 3S  -  40
+
+[Board "3"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "S:- AKJ.AQ7.9873.965 - Q95.KT8.KQJT65.Q"]
+[Auction "S"]
+Pass 1D  Pass 1H
+Pass 1NT Pass 3D
+Pass 3H  Pass 3NT
+AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 5D  - 100
+2 4D  -  40
+3 3NT -  10
+
+[Board "4"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "W:KQ973.754.84.KJ9 - JT852.AK.QJ.QT82 -"]
+[Auction "W"]
+Pass Pass 1S Pass
+3S AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 3S  - 100
+
+[Board "5"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:- AKJ84..KQ85.KQJ9 - QT96.A8532.J43.2"]
+[Auction "N"]
+1H   X  Pass 1S
+Pass 4S Pass 5H
+Pass 5S AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 4S  - 100
+2 5S  -  90
+3 3S  -  40
+
+[Board "6"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "E:T94.KQ42.A75.A97 - J7.AJ985.964.KQ6 -"]
+[Auction "E"]
+1H 1S 4H AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 3H  - 100
+2 2NT -  70
+3 4H  -  10
+- 3NT -  10
+
+[Board "7"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "S:- QT8762.Q.AK6.J83 - KJ93.KT6.QJ985.5"]
+[Auction "S"]
+1S 2C 4S AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 4S  - 100
+
+[Board "8"]
+[West "Betty"]
+[North ""]
+[East "Bert"]
+[South ""]
+[Dealer "W"]
+[Vulnerable "-"]
+[Deal "W:KQ74.AQ3.7.KQ653 - J3.K87.A964.AT74 -"]
+[Auction "W"]
+1C Pass 1D  Pass
+1S Pass 3NT AP
+[ActionTable "Rank\2R;Contract\3L;Declarer\1;Percentage\3R"]
+1 6C  - 100
+2 5C  -  60
+3 3NT -  50
+

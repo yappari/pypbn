@@ -1,0 +1,7 @@
+# Python garbage
+*.pyc
+
+
+# PLY garbage
+*.out
+parsetab.py
